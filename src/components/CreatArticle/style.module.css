@@ -1,0 +1,106 @@
+.from{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E05263;
+    font-size: 1.5rem;
+    color: white;
+    height:40vh;
+}
+.article{
+    padding: 25px;
+    margin: 10px;
+    border: 3px #E09F3E solid;
+    border-radius: 25px;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #E05263;
+}
+input{
+    padding: 15px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+}
+textarea{
+    padding: 15px;
+    height: 150px;
+    border-radius: 25px;
+    border: none;
+  
+}
+button{
+    padding: 15px;
+    background-color: #5C5D8D;
+    border-radius: 25px;
+    border: none;
+}
+.divContenu{
+    width: 90vh;
+    height: 150px;
+    overflow-wrap:break-word ;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    background-color: white;
+    margin-top: 50px;
+    padding:15px;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    
+}
+h1{
+    background-color: #E05263;
+    font-size: 3rem;
+    color: Black;
+    text-align: center;
+    padding: 15px;
+}
+h1:hover{
+    cursor: pointer;
+    color: #E09F3E;
+
+}
+.title{
+    width:600px;
+    text-align: center;
+    font-size: 2rem;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 25px;
+    border: #E09F3E solid 2px;
+}
+.btnDel{
+    height: 50px;
+    width: 15%;
+    margin: 25px;
+}
+.btnDel:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.btnAdd{
+    width: 15%;
+    height: 50px;
+
+}
+.btnAdd:hover{
+    background-color: greenyellow;
+}
+
+.articles{
+    background-color: rebeccapurple;
+    padding: 25px;
+    margin: 10px;
+    border: 3px #E09F3E solid;
+    border-radius: 25px;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #E05263;
+}
